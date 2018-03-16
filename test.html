@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./copy.js"></script>
+</head>
+<body>
+<span>我是要被复制的文字</span>
+<button id="copyBtn">复制</button>
+<script>
+    let btn = document.getElementById('copyBtn');
+    btn.addEventListener('click', e => {
+        copyAction('我是要被复制的文字我是要被复制的文字我是要被复制的文字');
+    });
+</script>
+</body>
+</html>
